@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+
+.container {
+  width: 620px;
+  margin: 0px auto;
+  padding: 100px 0;
+}
+
+/* Typography */
+h1,
+h2 {
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 42px;
+  margin-top: 0;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1 .accent-text {
+  font-size: 80px;
+}
+
+h2 .accent-text {
+  font-size: 60px;
+}
+
+.accent-text {
+  display: block;
+  color: #99d930;
+  font-weight: 900;
+}
+
+.name,
+time {
+  color: #99d930;
+  font-weight: 900;
+}
+
+.small-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* link */
+a {
+  color: #99d930;
+  font-weight: bold;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
+
+.link-btn {
+  display: inline-block;
+  color: #252525;
+  background-color: #99d930;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 25px;
+}
+
+.link-btn:hover {
+  color: #fff;
+  background-color: #252525;
+}
+
+.sec-three .link-btn:hover {
+  background-color: #fff;
+  color: #252525;
+}
+
+/* layout */
+.dark-bg {
+  background-color: #252525;
+  color: #ffffff;
+}
